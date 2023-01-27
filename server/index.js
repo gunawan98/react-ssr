@@ -68,9 +68,9 @@ app.get("/posts", (req, res, next) => {
 });
 
 // listening...
-app.listen(PORT, (error) => {
-  if (error) {
-    return console.log("Error during app startup", error);
-  }
-  console.log("listening on " + PORT + "...");
-});
+// app.listen(PORT, (error) => {
+//   if (error) {
+//     return console.log("Error during app startup", error);
+//   }
+//   console.log("listening on " + PORT + "...");
+// });
